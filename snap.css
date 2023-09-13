@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    background-color: #fffc00;
+}
+p{
+    margin: 0;
+}
+.heading{
+    width: 100%;
+    height: 70px;
+    background-color: #fffc00;
+    display: flex;
+}
+.first{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    width: 440px;
+}
+.search{
+    border-radius: 40px;
+    width:180px;
+    height:40px;
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input[type="search"]:focus {
+    outline: none;
+}
+.sec{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.final{
+    width: 370px;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.box{
+    width: 65px;
+    height: 60px;
+    background-color:transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.box:hover{
+    background-color: #d8d815;
+}
+.rec{
+    margin-left: 2px;
+    width: 6px;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+.foot{
+     margin-top: 25px;
+}
+.final p{
+    margin-right: 12px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-bars{
+    margin-right: 12px;
+}
+.body{
+    margin-left: 50px;
+    width: 92%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-size: 70px;
+    font-family: Graphik,Helvetica,sans-serif;
+    font-weight: lighter;
+}
+.body-left{
+    width: 530px;
+}
+.body img{
+    height: 650px;
+    width: auto;
+    margin-top: -85px;
+}
+.body-left p{
+    margin: 0;
+    padding-left: 50px;
+    font-size: 28px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-left: 50px;
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0;
+}
+.login input{
+    border:0;
+    margin-left: 30px;
+    width: 240px;
+    height: 30px;
+}
+input[type="email"]:focus {
+    outline: none;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #f8f9fb;
+}
+.footer table{
+    margin: 0 75px;
+    padding-top: 30px;
+    width: 1150px;
+}
+td,th{
+    padding-left: 100px;
+    padding-bottom: 5px;
+}
